@@ -17,6 +17,10 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 .section {
   padding: 120px 0px 120px 0px;
 }
@@ -111,6 +115,7 @@ ul {
 
 .main-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .main-container {
@@ -118,7 +123,6 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 48px;
-  padding: 188px 0;
 }
 
 .main-title {
@@ -169,14 +173,13 @@ ul {
   width: calc((100% - 72px) / 4);
 }
 
-.list .text {
-  padding-top: 8px;
+.features .text-title {
+  margin-bottom: 8px;
 }
 
 .list-team {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .list .team-card {
@@ -184,6 +187,7 @@ ul {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+  width: calc((100% - 72px) / 4);
 }
 
 .text-card {
