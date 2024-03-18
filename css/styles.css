@@ -45,8 +45,6 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
-  gap: 76px;
-  padding: 24px 0;
 }
 
 .logo {
@@ -79,7 +77,6 @@ img {
   list-style-type: none;
   display: flex;
   gap: 40px;
-  padding: 24px 0px;
 }
 
 .list-address .link {
@@ -87,6 +84,8 @@ img {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+  padding: 24px 0px;
 }
 
 .list-address .link:hover,
@@ -102,6 +101,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
 .list .link:hover,
@@ -201,10 +201,6 @@ img {
 
 .text-card .text {
   text-align: center;
-}
-
-.list-team .text {
-  padding-top: 8px;
 }
 
 .title-page {
